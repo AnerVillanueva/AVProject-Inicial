@@ -3,6 +3,7 @@ body{
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    min-width: fit-content;
 }
 
 #Descripción{
@@ -20,8 +21,8 @@ body{
     background-image: url('img/ProtoLogo.png');
     background-size:contain;
     background-repeat: no-repeat;
-    width: 130px;
-    height: 110px;
+    width: 120px;
+    height: 100px;
     position: absolute;
 }
 
