@@ -3,7 +3,7 @@ body{
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    min-width: 300px;
+    min-width: 400px;
 }
 
 #Descripción{
@@ -20,9 +20,34 @@ body{
     backdrop-filter: blur(2px);
 }
 
+.nav-to-end{
+    justify-content: center!important;
+}
+
+.insta{
+    background-image: url('img/instagram.png');
+    background-size:cover; 
+    width:25px; 
+    height:25px;
+}
+
+.twitter{
+    background-image: url('img/twitter.png'); 
+    background-size:cover; 
+    width:25px; 
+    height:25px;
+}
+
+.twitch{
+    background-image: url('img/twitch.png'); 
+    background-size:cover; 
+    width:25px; 
+    height:25px;
+}
+
 .ProtoLogo{
     margin-top: 65px;
-    margin-left: 2%;
+    margin-left: 0%;
     background-image: url('img/ProtoLogo.png');
     background-size:contain;
     background-repeat: no-repeat;
@@ -127,6 +152,21 @@ body{
         filter: none;
         box-shadow: none;
     }
+
+    .insta, .twitch, .twitter{
+        width: 20px;
+        height: 20px;
+    }
+
+    .ProtoLogo2{
+        background-image: none;
+    }
+
+    .nav-to-end{
+        justify-content: flex-end!important;
+    }
+
+
 
 
 }
